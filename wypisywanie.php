@@ -1,3 +1,5 @@
+
+<?php
 if(isset($_POST["cos"])){
     $tekst = $_POST["tekst"];
     $wyswietl = "Select * from imie";
@@ -9,3 +11,4 @@ if(isset($_POST["cos"])){
     }
 
 }
+?>
